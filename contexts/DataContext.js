@@ -10,7 +10,7 @@ export function DataContextProvider({ children }) {
   const [movies, setMovies] = useState(MoviesData);
   const [movie, setMovie] = useState({});
   const [selectedMovie, setSelectedMovie] = useState({});
-  // const isDarkMode = useColorScheme() === "dark";
+  const isDarkMode = useColorScheme() === "dark";
   const colors = usethemeProvider(true);
 
   return (

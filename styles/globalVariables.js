@@ -11,6 +11,7 @@ export const usethemeProvider = (isDarkMode) => {
     ratingStarColor: "yellow",
     headerColor: "white",
     addBtnColor: "#8db0bb",
+    statusBarColor: "dark-content",
   };
   const darkMode = {
     primaryColor: "#333333",
@@ -24,6 +25,7 @@ export const usethemeProvider = (isDarkMode) => {
     ratingStarColor: "yellow",
     headerColor: "#4A4A4AB0",
     addBtnColor: "white",
+    statusBarColor: "light-content",
   };
 
   return isDarkMode === true ? darkMode : lightMode;

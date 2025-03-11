@@ -24,7 +24,10 @@ export default function Main() {
 
   return (
     <SafeAreaView style={styles.root}>
-      <StatusBar barStyle="light-content" backgroundColor={colors.appBgColor} />
+      <StatusBar
+        barStyle={colors.statusBarColor}
+        backgroundColor={colors.appBgColor}
+      />
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="Home"
